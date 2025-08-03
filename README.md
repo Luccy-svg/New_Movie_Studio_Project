@@ -51,7 +51,7 @@ The questions the anlysis helps to answer are:
 Data was explored and patterns were created:
 #### Tp 10 genres
 The analysis was done by production_budget, worldwide_gross
-![Total Injuries by Engine Type](images/Total_Injuries_by_Engine_Type.png)
+![Directors with High Worldwide Gross]('images/directors_high_gross.png')
 ![Most Used Aircraft](images/Most_Used_Aircraft.png)
 ![Countires by total injuries](images/Countires_by_total_injuries.png)
 #### Trend Analysis
