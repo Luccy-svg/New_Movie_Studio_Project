@@ -52,8 +52,7 @@ Data was explored and patterns were created:
 #### Tp 10 genres
 The analysis was done by production_budget, worldwide_gross
 ![Directors with High Worldwide Gross]('images/directors_high_gross.png')
-![Most Used Aircraft](images/Most_Used_Aircraft.png)
-![Countires by total injuries](images/Countires_by_total_injuries.png)
+![Genres with High Worldwide Gross]('images/genre_worldwide_gross.png')
 #### Trend Analysis
 The analysis was done by ROI to show correlation of two variables.
 ![Return On Investment]('images/production_vs_worldwide.png')
