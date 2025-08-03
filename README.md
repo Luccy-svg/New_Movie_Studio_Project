@@ -36,18 +36,27 @@ The questions the anlysis helps to answer are:
 - Which primary_title and genres have the highest production budget?
 - Top 10 genres by domestic and foreign gross?
 ## Data Understanding and analysis
-- The main data set used is bom.movie_gross.csv, tn.movie_budgets.csv and im.db.
-- The structure of the data is represented by an primary_title, release_date, Directrs,persns and genres involving wrldwide_grss, prductin_budget, dmestic_grss, freign_grss and RI.
-- Key columns used in the analysis are release_date, primart_tiltle, genres, directrs, wrldwide_grss, prductin_budget, dmestic_grss, freign_grss and RI.
-- There is missing values in the data-set which are cleaned by using fillna('Nne') and drpping the missing values. Clumns like birt_year, death_year and riginal_title are drpped entirely frm the data-set. 
+- The main data-set used is bom.movie_gross.csv, tn.movie_budgets.csv and im.db.
+- The structure of the data is represented by primary_title, release_date, Directors,persons and genres columns involving worldwide_gross, production_budget, domestic_gross, foreign_gross and ROI.
+- Key columns used in the analysis are release_date, primary_tiltle, genres, directors, worldwide_gross, production_budget, domestic_gross, foreign_gross and ROI.
+- There are missing values in the data-set which are cleaned by using fillna('None') and dropping the missing values. Columns like birth_year, death_year and original_title are dropped entirely from the data-set. 
 ### Data Cleaning Performed
-- Converted date fields using pd.to_datetime.
-- Converted injury columns to numeric using pd.to_numeric.
-- Filtered data by year for trend analysis(1990-2022).
-- Created a derived column total_injuries = fatal + serious + minor.
-- Merged or created derived identifiers(Aircraft = Make + Model).
+- Converted release_date using pd.to_datetime.
+- Extracted year using .dt.year.
+- Converted worldwide_gross, production_budget, domestic_gross, foreign_gross columns to numeric using pd.to_numeric.
+- Created a derived column ROI by (worldwide_gross - production_budget / production_budget).
+- Dropped columns with many missing values.
+- Sorted values and grouped by. 
 ### Data Analysis
 Data was explored and patterns were created:
+#### Tp 10 genres
+The analysis was done by production_budget, worldwide_gross
+![Total Injuries by Engine Type](images/Total_Injuries_by_Engine_Type.png)
+![Most Used Aircraft](images/Most_Used_Aircraft.png)
+![Countires by total injuries](images/Countires_by_total_injuries.png)
+#### Trend Analysis
+The analysis was done by ROI to show correlation of two variables.
+![Return On Investment]('images/production_vs_worldwide.png')
 
 In the folder `zippedData` are movie datasets from:
 
