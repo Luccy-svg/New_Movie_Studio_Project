@@ -35,7 +35,19 @@ The questions the anlysis helps to answer are:
 - Which Directors bring in more revenue?
 - Which primary_title and genres have the highest production budget?
 - Top 10 genres by domestic and foreign gross?
-- 
+## Data Understanding and analysis
+- The main data set used is bom.movie_gross.csv, tn.movie_budgets.csv and im.db.
+- The structure of the data is represented by an primary_title, release_date, Directrs,persns and genres involving wrldwide_grss, prductin_budget, dmestic_grss, freign_grss and RI.
+- Key columns used in the analysis are release_date, primart_tiltle, genres, directrs, wrldwide_grss, prductin_budget, dmestic_grss, freign_grss and RI.
+- There is missing values in the data-set which are cleaned by using fillna('Nne') and drpping the missing values. Clumns like birt_year, death_year and riginal_title are drpped entirely frm the data-set. 
+### Data Cleaning Performed
+- Converted date fields using pd.to_datetime.
+- Converted injury columns to numeric using pd.to_numeric.
+- Filtered data by year for trend analysis(1990-2022).
+- Created a derived column total_injuries = fatal + serious + minor.
+- Merged or created derived identifiers(Aircraft = Make + Model).
+### Data Analysis
+Data was explored and patterns were created:
 
 In the folder `zippedData` are movie datasets from:
 
