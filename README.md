@@ -51,11 +51,11 @@ The questions the anlysis helps to answer are:
 Data was explored and patterns were created:
 #### Tp 10 genres
 The analysis was done by production_budget, worldwide_gross
-![Directors with High Worldwide Gross]('images/directors_high_gross.png')
-![Genres with High Worldwide Gross]('images/genre_worldwide_gross.png')
+![directors with high worldwide gross](images/directors_high_gross.png)
+![genres with high worldwide gross](images/genre_worldwide_gross.png)
 #### Trend Analysis
 The analysis was done by ROI to show correlation of two variables.
-![Return On Investment]('images/production_vs_worldwide.png')
+![return on investment](images/production_vs_worldwide.png)
 
 In the folder `zippedData` are movie datasets from:
 
