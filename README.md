@@ -1,24 +1,26 @@
-# Phase 2 Project Description
 
-You've made it through the second phase of this course, and now you will put your new skills to use with a large end-of-Phase project!
-
-In this project description, we will cover:
-
-* [***Project Overview:***](#project-overview) the project goal, audience, and dataset
-* [***Deliverables:***](#deliverables) the specific items you are required to produce for this project
-* [***Grading:***](#grading) how your project will be scored
-* [***Getting Started:***](#getting-started) guidance for how to begin your first project
-
-## Project Overview
-
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
-
-### Business Problem
+# Phase 2 Project README.md
+## Business Problem
 
 Your company now sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of your company's new movie studio can use to help decide what type of films to create.
 
-### The Data
-
+## Overview
+- Data used was bom.movie_gross.csv, tn.movie_budgets.csv and im.db.
+- The release_date was converted to date-time format with error handling.
+- The revenue columns that include worldwide_gross, production_budget, foreign_gross and domestic-gross Were converted to numerical values.
+- ROI was done by subtracting production_budget from worldwide_gross and dividing it by production budget(worldwide_gross - production_budget / production_budget).
+- Merged bom.movie_gross.csv(df_bom) and tn.movie_budgets.csv(df_budget) with release_date and movie columns after converting release_date to date time format and renaming the column title in df_bom to movie.
+- Extracted Year from the release_date using (.dt.year) into a Year column.
+- Merged df_bom and df-budget and called it merged_2.
+- Then merged the merged_2 to the im.db database using the tables movie_basics(df_basics), movie_ratings(df_ratings), Directors(df_directors), Persons(df_persons).
+- Used release_date column that was renamed from start_year to release_date and movie column that was renamed from movie to primary_title in df_basics to merge df_basics and merged_2 and called the data-set merged_dataset
+- Used movie_id in df_ratings and merged it with merged_dataset and called it merged_dataset1 using an inner join.
+- used movie_id in df_directors and merged it with merged_dataset1 and called it merged_dataset2 using left join.
+- Used person_id in df_persons and merged it with merged_dataset2 and called it merged_dataset3 using left jin.
+- Drped riginal_title clumn and used primary_title and release_date t drp duplicated values, this in turn gave the final dataset called final that has 1025 rws and 17 clumns.
+- Computed top 10 primary_title and genres with the highest wrldwide_grss, prductin budegt, freign_grss and dmestic_grss  and displayed a horizintal bar chart, also , grouped the revenues by priamry_title, release_date, genres and directrs.
+- Fund the crrelatin between prductin budget and wrlwide_grss.
+- Fund the primary_title with the highest Return n Investment.
 In the folder `zippedData` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
