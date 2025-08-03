@@ -16,11 +16,27 @@ Your company now sees all the big companies creating original video content and 
 - Used release_date column that was renamed from start_year to release_date and movie column that was renamed from movie to primary_title in df_basics to merge df_basics and merged_2 and called the data-set merged_dataset
 - Used movie_id in df_ratings and merged it with merged_dataset and called it merged_dataset1 using an inner join.
 - used movie_id in df_directors and merged it with merged_dataset1 and called it merged_dataset2 using left join.
-- Used person_id in df_persons and merged it with merged_dataset2 and called it merged_dataset3 using left jin.
-- Drped riginal_title clumn and used primary_title and release_date t drp duplicated values, this in turn gave the final dataset called final that has 1025 rws and 17 clumns.
-- Computed top 10 primary_title and genres with the highest wrldwide_grss, prductin budegt, freign_grss and dmestic_grss  and displayed a horizintal bar chart, also , grouped the revenues by priamry_title, release_date, genres and directrs.
-- Fund the crrelatin between prductin budget and wrlwide_grss.
-- Fund the primary_title with the highest Return n Investment.
+- Used person_id in df_persons and merged it with merged_dataset2 and called it merged_dataset3 using left join.
+- Dropped original_title column and used primary_title and release_date to drop duplicated values, this in turn gave the final dataset called final that has 1025 rows and 17 columns.
+- Computed top 10 primary_title and genres with the highest worldwide_gross, production budegt, foreign_gross and domestic_gross  and displayed a horizintal bar chart, also, grouped the revenues by priamry_title, release_date, genres and directors.
+- Found the correlation between production budget and worlwide_gross.
+- Found the primary_title with the highest Return On Investment.
+## Business Understanding
+### StakeHolders
+From the analysis done the stake-holders are identified and their roles or intersts are shown as follows:
+- Studio Executives or Investors - Wants to maximize ROI from the films.
+- Producers and Production managers - Need to understand budget thresholds that lead to profitable outcome.
+- Marketing Team - Interested in knowing which genres, budgets or directors tend to generate more revenue.
+- Audience(external stake-holder)- determines part of the revenue the films generate.
+### Key Business Questions
+The questions the anlysis helps to answer are:
+- What is the correlation between production_budget and worldwide_gross?
+- Which movie genres do the best?
+- Which Directors bring in more revenue?
+- Which primary_title and genres have the highest production budget?
+- Top 10 genres by domestic and foreign gross?
+- 
+
 In the folder `zippedData` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
