@@ -73,5 +73,5 @@ Directors with high numvotes tend to bring in a higher worldwide_gross. New Movi
 ## Final Insight:
 A strategic combination of modest budget_prduction in ROI e.g in genres like Horror and directed by well-rated or experienced directors offers the most cost-effective path to profitablity that should be ventured by New Movie Studio.
 
-[👉 View the Live Dashboard on Tableau](https://public.tableau.com/app/profile/valerie.kigo/viz/TableauAviationAccidents/Dashboard1?publish=yes)
+[👉 View the Live Dashboard on Tableau](https://public.tableau.com/app/profile/valerie.kigo/viz/MovieAnalysis_17542728958790/Dashboard1?publish=yes)
 
