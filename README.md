@@ -70,7 +70,7 @@ Genres like Horror had a high ROI even with modest or low production_budget. Thi
 #### Director influence:
 Directors with high numvotes tend to bring in a higher worldwide_gross. New Movie Studio will benefit immensely by choosing experienced or audience-approved Directors.
 
-### Final Insight:
+## Final Insight:
 A strategic combination of modest budget_prduction in ROI e.g in genres like Horror and directed by well-rated or experienced directors offers the most cost-effective path to profitablity that should be ventured by New Movie Studio.
 
 [👉 View the Live Dashboard on Tableau](https://public.tableau.com/app/profile/valerie.kigo/viz/TableauAviationAccidents/Dashboard1?publish=yes)
