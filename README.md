@@ -50,12 +50,12 @@ The questions the anlysis helps to answer are:
 ### Data Analysis
 Data was explored and patterns were created:
 #### Top 10 genres
-The analysis was done by production_budget, worldwide_gross
+The analysis was done by production_budget, worldwide_gross and ROI:
 ![directors with high worldwide gross](images/directors_high_gross.png)
 ![genres with high worldwide gross](images/genre_worldwide_gross.png)
 ![Genres By ROI](images/Genres_By_ROI.png)
 #### Trend Analysis
-The analysis was done by ROI to show correlation of two variables(production_budget and worldwide-gross).
+The analysis was done by ROI to show correlation of two variables(production_budget and worldwide-gross):
 ![return on investment](images/production_vs_worldwide.png)
 ## Summary
 - A correlation of 0.78 was observed between production_budget and worldwide_gross.
@@ -63,9 +63,9 @@ The analysis was done by ROI to show correlation of two variables(production_bud
 - Certain directors with high numvotes, generally bring in a higher worldwide_gross.
 
 ### Relevant findings:
-#### High Budget High Returns:
-Bigger budegts tend to yield higher worldwide_gross as seen in the data. This is shown by the Return On Investment.
-#### Genres also equate to prfitability:
+#### Higher Budget Higher Returns:
+Bigger budgets tend to yield higher worldwide_gross as seen in the data. This is shown by the Return On Investment.
+#### Genres also equate to profitability:
 Genres like Horror had a high ROI even with modest or low production_budget. This is cost effective for New Movie Studio that is aiming to venture in the industry.
 #### Director influence:
 Directors with high numvotes tend to bring in a higher worldwide_gross. New Movie Studio will benefit immensely by choosing experienced or audience-approved Directors.
